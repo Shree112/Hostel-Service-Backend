@@ -30,7 +30,7 @@ app.use(
 
 // Connection to mongodb
 mongoose.connect(
-  "mongodb://localhost:27017/myapp?authSource=admin",
+  "mongodb+srv://rootuser:abcd1234@cluster1.bu8jm8t.mongodb.net/?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
   }
