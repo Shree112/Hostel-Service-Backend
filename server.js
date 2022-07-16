@@ -73,6 +73,6 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
 });
 
-app.listen(process.env.PORT || 4000, function () {
-  console.log("Server is running on port: " + process.env.PORT || 4000);
+app.listen(PORT , function () {
+  console.log("Server is running on port: " + PORT);
 });
